@@ -1,4 +1,4 @@
-https://dev.azure.com/792524/Project1/_apis/build/status/Project1-CI%20(3)
+[![Build status](https://dev.azure.com/792524/Project1/_apis/build/status/Project1-CI%20(3))](https://dev.azure.com/792524/Project1/_build/latest?definitionId=45)
 
 # Contributing
 
