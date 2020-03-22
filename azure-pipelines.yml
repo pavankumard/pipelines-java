@@ -1,7 +1,7 @@
 stages:
 - stage: build
   jobs:
-  - job: Build job
+  - job: Buildjob
     steps:
     - script: echo Building!
 - stage: Test
