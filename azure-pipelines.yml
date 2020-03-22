@@ -1,5 +1,6 @@
+poo1:
+  vmImage: ubuntu-16.04
 jobs:
-- job: MyJob
-  displayName: My First Job
+- job: first job
   steps:
-  - script: echo My First Job
+  - script: whoami
