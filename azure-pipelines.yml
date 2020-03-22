@@ -1,5 +1,5 @@
 pool: 
-  name: Deafult
+  vmImage: Ubuntu-16.04
   demands: 
   - agent.os -equals Darwin
 jobs:
