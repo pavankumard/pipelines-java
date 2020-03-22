@@ -1,4 +1,7 @@
-pool: Default
+pool: 
+  name: Deafult
+  demands: 
+  - agent.os -equals Darwin
 jobs:
 - job: firstjob
   steps:
