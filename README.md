@@ -1,4 +1,4 @@
-https://github.com/MicrosoftDocs/pipelines-java
+https://dev.azure.com/792524/Project1/_apis/build/status/Project1-CI%20(3)
 
 # Contributing
 
