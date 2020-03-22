@@ -1,19 +1,5 @@
-stages:
-- stage: build
-  jobs:
-  - job: Buildjob
-    steps:
-    - script: echo Building!
-- stage: Test
-  jobs:
-  - job: TestonWindows
-    steps:
-    - script: echo Testing on Windows!
-  - job: TestOnLinux
-    steps:
-    - script: echo Testing on Linux!
-- stage: Deploy
-  jobs:
-  - job: Deploy
-    steps:
-    - script: echo Deploying the code!
+jobs:
+- job: MyJob
+  displayName: My First Job
+  steps:
+  - script: echo My First Job
