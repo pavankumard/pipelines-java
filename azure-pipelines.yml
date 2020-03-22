@@ -1,7 +1,19 @@
-name: "test"
-variables:
-  var1: 10
-jobs:
-- job: one
-  steps:
-  - script: echo "Hello World"
+stages:
+- stage: build
+  jobs:
+  - job: Build job
+    steps:
+    - script: echo Building!
+- stage: Test
+  jobs:
+  - job: TestonWindows
+    steps:
+    - script: echo Testing on Windows!
+  - job: TestOnLinux
+    steps:
+    - script: echo Testing on Linux!
+- stage: Deploy
+  jobs:
+  - job: Deploy
+    steps:
+    - script: echo Deploying the code!
